@@ -1,0 +1,38 @@
+what is CI CD?
+Continuous Integration (CI) and Continuous Delivery (CD) are software development practices that involve automating the processes of integrating code changes, testing them thoroughly, and delivering the resulting software to production in a reliable and efficient manner. CI ensures that code changes from different developers are frequently and automatically merged, allowing early detection of integration issues. CD extends this by automating the deployment of successfully tested code changes, ensuring a consistent and rapid delivery pipeline, ultimately enabling a faster and more reliable software release cycle in the industry.
+
+Steps of CI CD
+Code Commit:
+Developers commit their code changes to a version control system (e.g., Git).
+
+Continuous Integration (CI) Pipeline:
+Code Build: The CI system automatically fetches the latest code, compiles it, and creates a build (e.g., executable, package).
+Automated Testing: Various automated tests (unit tests, integration tests) ensure the code changes don't introduce errors.
+ 
+Artifact Storage:
+The resulting build (artifact) is stored in a repository for future reference and deployment.
+Continuous Delivery (CD) Pipeline:
+
+Deployment to Staging: The CD pipeline automatically deploys the tested artifact to a staging environment, simulating the production setup.
+
+Additional Testing (if needed):
+Further testing may occur in the staging environment to catch issues that might not be apparent in the development environment.
+
+Approval (if needed):
+Manual or automated approval processes may be in place to ensure stakeholders review and authorize the deployment to production.
+
+Deployment to Production:
+Upon approval, the CD pipeline automatically deploys the artifact to the production environment.
+
+Monitoring and Logging:
+Continuous monitoring ensures the deployed software performs as expected, and logs capture information for analysis.
+
+Feedback Loop:
+Results and feedback from production are fed back to developers for continuous improvement.
+
+Iterative Development:
+Developers continue to work on new features or improvements, starting the cycle again with code commits.
+This pipelining approach streamlines the software development lifecycle, enabling quick and reliable delivery of high-quality software while minimizing manual interventions and reducing the risk of errors.
+
+
+
